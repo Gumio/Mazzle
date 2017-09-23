@@ -1,0 +1,15 @@
+current directory: /Users/gumio_inf/WebApp/Rails/Practice/mazzle/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+/Users/gumio_inf/.anyenv/envs/rbenv/versions/2.4.1/bin/ruby -r ./siteconf20170924-52870-1vg4tom.rb extconf.rb
+creating Makefile
+
+current directory: /Users/gumio_inf/WebApp/Rails/Practice/mazzle/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/gumio_inf/WebApp/Rails/Practice/mazzle/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/gumio_inf/WebApp/Rails/Practice/mazzle/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20170924-52870-sx9b94
