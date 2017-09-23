@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  profile_image_file_name: MyString
+  name: MyString
+  birthday: 2017-09-24
+  gender: 1
+  college: MyString
+  prefecture: 1
+  mail_address: MyString
+  kind: 1
+  wants: MyString
+  wants_text: MyString
+  work_image1_filename: MyString
+  work_image2_filename: MyString
+  work_image3_filename: MyString
+  work_text1_title: MyString
+  work_text2_title: MyString
+  work_text3_title: MyString
+  work_text1_detail: MyString
+  work_text2_detail: MyString
+  work_text3_detail: MyString
+
+two:
+  profile_image_file_name: MyString
+  name: MyString
+  birthday: 2017-09-24
+  gender: 1
+  college: MyString
+  prefecture: 1
+  mail_address: MyString
+  kind: 1
+  wants: MyString
+  wants_text: MyString
+  work_image1_filename: MyString
+  work_image2_filename: MyString
+  work_image3_filename: MyString
+  work_text1_title: MyString
+  work_text2_title: MyString
+  work_text3_title: MyString
+  work_text1_detail: MyString
+  work_text2_detail: MyString
+  work_text3_detail: MyString
