@@ -9,7 +9,7 @@ Things you may want to cover:
 2.4.1
 
 * Rails version
-5.1.1
+5.1.4
 
 * System dependencies
 
