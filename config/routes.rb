@@ -5,8 +5,6 @@ Rails.application.routes.draw do
 
   get 'search/index' => 'search#index'
 
-  get 'profile/index' => 'profile#index'
-
   get '/' => 'home#top'
 
 
