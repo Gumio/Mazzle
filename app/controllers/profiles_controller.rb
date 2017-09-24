@@ -3,21 +3,11 @@ class ProfilesController < ApplicationController
   def new
   end
 
-  def show
-  end
-
   def create
-    uploaded_file = fileupload_param[:work_image1_filename]
-	  output_path = Rails.root.join('public', uploaded_file.original_filename)
-
-	  File.open(output_path, 'w+b') do |fp|
-	    fp.write  uploaded_file.read
-	  end
-
     @user = User.new(user_params)
+    @user.wants = params[:user][:wants].to_s
     @user.save
-    redirect_to profiles_show_path(@user)
-
+    redirect_to search_show_path
   end
 
   private

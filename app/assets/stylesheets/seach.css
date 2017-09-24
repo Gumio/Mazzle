@@ -1,0 +1,187 @@
+body {
+  background-color : #ffffff;
+  margin : 0px;
+  padding : 0px;
+  font-family : serif;
+  font-size : 10pt;
+}
+
+/*tab*/
+
+#header {
+  width: 100%;
+  height: 72px;
+  background-color: #e0e0e0;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:link { color:#000000; text-decoration:none }
+a:visited { color:#000000; text-decoration:none }
+a:hover { color:#000000; text-decoration:none }
+a:active { color:#000000; text-decoration:none }
+
+.content {
+  width: 100%;
+  height: 90%;
+}
+
+#logo{
+  float: left;
+  margin-left: 30px;
+  margin-top: 6px;
+  width: 96px;
+  height: 59px;
+  background-image: url("/rogo.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#belLapper{
+  float: right;
+  width: 70px;
+  height: 72px;
+  background-color: #707070;
+}
+
+#bel{
+  width: 37px;
+  height: 41px;
+  background-image: url("images/icons/bel.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 15px auto;
+}
+
+#userLapper{
+  float: right;
+  width: 70px;
+  height: 72px;
+  background-color: #959595;
+}
+
+#myProf{
+  width: 33px;
+  height: 41px;
+  background-image: url("images/icons/hito.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 15px auto;
+}
+
+#tabs{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tab{
+  float: left;
+  margin-top: 24px;
+  margin-left: 30px
+}
+
+div.englishTab{
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+
+/*main content*/
+
+.content {
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+#seachBody{
+  width: 70%;
+  height: 170px;
+  margin: 30px auto 0px auto;
+  border: 1px solid #808686;
+  position: relative;
+  padding: 20px;
+}
+
+table#seachContent{
+  text-align: left;
+  border-spacing: 12px;
+}
+td.seachTitle{
+  width: 120px;
+  text-align: right;
+}
+
+#sendButtonLapper{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin-right: 40px;
+}
+
+#sendButton{
+  color: #080103;
+  border: 1px solid #808686;
+  padding:4px 30px;
+}
+
+.user{
+  margin: 40px;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  border-radius:30px;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  float: left;
+}
+
+.productImg{
+  width: 100%;
+  height: 260px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url("images/product.jpeg");
+  vertical-align: bottom;
+  position: relative;
+
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+  filter: brightness(70%);
+  color: #ffffff;
+
+}
+.productImg:hover{
+  filter: brightness(100%);
+}
+
+.productTitle{
+  position: absolute;
+  bottom: 50px;
+}
+
+.productDetail{
+  position: absolute;
+  bottom: 0px;
+}
+
+.favo{
+  margin: 6px auto;
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #808686;
+}
+
+#contentTitle{
+  margin: 60px auto 20px auto;
+  color: #808686;
+  width: 70%;
+}
+
+#freeWord{
+  border: 1px solid #808686;
+  height: 18px;
+}
