@@ -49,7 +49,7 @@ a:active { color:#000000; text-decoration:none }
 #bel{
   width: 37px;
   height: 41px;
-  background-image: url("images/icons/bel.png");
+  background-image: url("/bel.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin: 15px auto;
@@ -65,7 +65,7 @@ a:active { color:#000000; text-decoration:none }
 #myProf{
   width: 33px;
   height: 41px;
-  background-image: url("images/icons/hito.png");
+  background-image: url("/hito.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin: 15px auto;
@@ -144,7 +144,7 @@ td.seachTitle{
   height: 260px;
   background-size: auto;
   background-repeat: no-repeat;
-  background-image: url("images/product.jpeg");
+  background-image: url("/product.jpeg");
   vertical-align: bottom;
   position: relative;
 
