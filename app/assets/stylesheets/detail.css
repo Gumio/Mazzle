@@ -1,0 +1,198 @@
+body {
+  background-color : #ffffff;
+  margin : 0px;
+  padding : 0px;
+  font-family : serif;
+  font-size : 10pt;
+}
+
+.content {
+  width: 90%;
+  height: 200px;
+}
+
+/*tab*/
+#header {
+  width: 100%;
+  height: 72px;
+  background-color: #e0e0e0;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:link { color:#000000; text-decoration:none }
+a:visited { color:#000000; text-decoration:none }
+a:hover { color:#000000; text-decoration:none }
+a:active { color:#000000; text-decoration:none }
+
+.content {
+  width: 100%;
+  height: 90%;
+}
+
+#logo{
+  float: left;
+  margin-left: 30px;
+  margin-top: 6px;
+  width: 96px;
+  height: 59px;
+  background-image: url("images/icons/rogo.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#belLapper{
+  float: right;
+  width: 70px;
+  height: 72px;
+  background-color: #707070;
+}
+
+#bel{
+  width: 37px;
+  height: 41px;
+  background-image: url("images/icons/bel.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 15px auto;
+}
+
+#userLapper{
+  float: right;
+  width: 70px;
+  height: 72px;
+  background-color: #959595;
+}
+
+#myProf{
+  width: 33px;
+  height: 41px;
+  background-image: url("images/icons/hito.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 15px auto;
+}
+
+#tabs{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tab{
+  float: left;
+  margin-top: 24px;
+  margin-left: 30px
+}
+
+div.englishTab{
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+
+/*content*/
+
+#content{
+  width: 70%;
+  margin: 0px auto;
+}
+
+#products{
+  width: 100%;
+  height: 400px;
+}
+
+#profContent{
+  margin: 0px auto;
+  width: 100%;
+  height: 400px;
+  background-color: #E8EAEB;
+}
+
+#leftContent{
+  float: left;
+  margin-left: 120px;
+  margin-right: 70px;
+  width: 140px;
+}
+
+#leftContent img{
+  width: 140px;
+  height: 140px;
+  margin-top: 50px;
+}
+
+
+#leftLapper{
+  position: relative;
+  width: 200px;
+}
+
+#favo{
+  margin: 30px 16px 0px 16px;
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #808686;
+  text-align: center;
+}
+
+#message{
+  margin: 10px 16px;
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #808686;
+  text-align: center;
+}
+
+#rightContent{
+  float: left;
+}
+
+#rightContent{
+  font-size: 18px;
+}
+
+.sectionTitle{
+  margin: 80px 0px 40px 0px;
+  font-size: 20px;
+}
+
+#productImg{
+  width: 330px;
+  height: 330px;
+  float: left;
+  margin-right: 40px;
+}
+
+#sectionTitle span{
+  margin-left: 8px;
+}
+
+#productText{
+  padding-top: 30px;
+}
+
+#productTitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contentTitle{
+  margin-top: 30px;
+  margin-right: 40px;
+}
+span#name{
+  font-size: 24px;
+}
+
+span#detail{
+  font-size: 16px;
+}
+
+span#other{
+  font-size: 12px;
+}
