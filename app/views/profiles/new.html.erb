@@ -1,0 +1,50 @@
+<h1>プロフィール登録しよう！</h1>
+<%= form_for :user, url: profiles_create_path, multipart: true do |f| %>
+
+  <p>
+    <%= f.label "役割" %><br>
+    <label><%= f.radio_button :kind, 0 %> エンジニア </label>
+    <label><%= f.radio_button :kind, 1 %> デザイナー </label>
+  </p>
+  <p>
+    <%= f.label "やりたいこと" %><br>
+    <%
+      kinds = ["Webアプリ", "Webサイト", "モバイルアプリ",
+               "モバイルサイト", "ゲーム", "UI/UX", "グラフィック",
+               "フロントエンド", "バックエンド"]
+    %>
+
+    <%  kinds.each do |w| %>
+    <%= f.check_box(:wants, {:multiple => true}, w, nil) %><%= w %>
+    <% end %>
+  <p>
+    <%= f.label "成果物1" %><br>
+    <%= f.label "画像" %><br>
+    <%= f.file_field :work_image1_filename %><p>
+      <%= f.label "タイトル" %><br>
+    <%= f.text_field :work_text1_title %><p>
+      <%= f.label "詳細" %><br>
+    <%= f.text_field :work_text1_detail %>
+  </p>
+  <p>
+    <%= f.label "成果物2" %><br>
+    <%= f.label "画像" %><br>
+    <%= f.file_field :work_image2_filename %><p>
+      <%= f.label "タイトル" %><br>
+    <%= f.text_field :work_text2_title %><p>
+      <%= f.label "詳細" %><br>
+    <%= f.text_field :work_text2_detail %>
+  </p>
+  <p>
+    <%= f.label "成果物3" %><br>
+    <%= f.label "画像" %><br>
+    <%= f.file_field :work_image3_filename %><p>
+      <%= f.label "タイトル" %><br>
+    <%= f.text_field :work_text3_title %><p>
+      <%= f.label "詳細" %><br>
+    <%= f.text_field :work_text3_detail %>
+  </p>
+  <p>
+    <%= f.submit "登録"%>
+  </p>
+<% end %>
