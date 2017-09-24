@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/' => 'home#top'
+
   get 'profiles/new'
   post 'profiles/create'
   get 'profiles/show'
