@@ -1,0 +1,43 @@
+<h2>検索</h2>
+<%= form_for :user, url: search_result_path, multipart: true do |f| %>
+<p>
+  <%= f.label "やりたいこと:" %><br>
+  <%
+    kinds = ["Webアプリ", "Webサイト", "モバイルアプリ",
+             "モバイルサイト", "ゲーム", "UI/UX", "グラフィック",
+             "フロントエンド", "バックエンド"]
+  %>
+  <%  kinds.each do |w| %>
+  <%= f.check_box(:wants, {:multiple => true}, w, nil) %><%= w %>
+  <% end %>
+<p>
+
+<p>
+  <%= f.label "役割:" %><br>
+  <label><%= f.radio_button :kind, 0 %> エンジニア </label>
+  <label><%= f.radio_button :kind, 1 %> デザイナー </label>
+</p>
+
+<p>
+  <%= f.label "住み場所" %>
+  あとで。とりあえず検索優先！
+</p>
+
+<p>
+  <%= f.label "フリーワード" %><br>
+  <%= f.text_field :freeword %>
+</p>
+
+<p>
+  <%= f.submit "検索"%>
+</p>
+<% end %>
+<hr>
+<p>一覧だよ</p>
+<% @users.each do |n| %>
+<p>
+  写真イメージ<br>
+  <%= n.name %><br>
+  <button>マズる</button><br>
+</p>
+<% end %>
